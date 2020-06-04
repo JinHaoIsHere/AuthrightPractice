@@ -1,0 +1,29 @@
+.card{
+	margin: 50px 10%;
+	width: 80%;
+}
+
+.line{
+	height: 1px;
+	background-color: #ddd;
+	top: 10px;
+	left: 0px;
+	width: 100%;
+}
+
+.form-control {
+	border: 1px solid white;
+}
+
+.btn-primary {
+	margin-top: 10px;
+}
+
+table a{
+	float: right;
+	margin-right: 30px;
+}
+
+table i.fas {
+    color: orange;
+}

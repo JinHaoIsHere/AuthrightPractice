@@ -1,0 +1,47 @@
+body {
+	font-family:"Times New Roman";
+	margin: 0;
+}
+
+header {
+	color: white;
+	background-color:#EC7357;
+	text-align: center;
+	padding: 3px 0px 3px 0px;
+	
+}
+
+footer{
+	color: white;
+	background-color:#FDD692;
+	margin: 0 auto;	
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+}
+
+
+h2{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.main{
+	height: 200px;
+	background-image: radial-gradient(white, #FBFFB9);
+}
+
+.child{
+	float:left;
+	height: 100%
+}
+
+.fenge{
+display: block;
+float:left;
+margin:15px 2px;
+border-left: 1px solid #FDD692;
+border-right: 1px solid #FBFFB9;
+font-size: 0;
+height: 170px;
+}
