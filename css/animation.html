@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>Broomstick Animation</title>
+ 
+  <style>
+    body {
+      padding: 50px;
+    }
+    #container {
+      height: 300px;
+      text-align: center;
+    }
+    h2 {
+  animation-name: h2move;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}  
+@keyframes h2move {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#dot {
+  margin: 100px auto;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  border-radius: 50%;
+  animation-name: disappear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes disappear{
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+   
+  #para {
+    animation-name: exit;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes exit{
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(700px);
+    }
+  }
+  </style>
+</head>
+ 
+<body>
+  <div id="container">
+    <h2>The Blue Dot</h2>
+    <div id="dot"></div>
+    <p id="para">This paragraph is going to disappear in about 5 seconds.</p>
+  </div>
+</body>
+ 
+</html>
